@@ -3,35 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me Section</title>
+    <title>Yonatan Berihun | Portfolio</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     
-    <!-- Make sure you have a style.css file linked -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Correct path to your stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<section id="about" class="about-section">
-    <div class="container">
-        <h2 class="section-title">About Me</h2>
+<section class="intro-section">
+    <div class="intro-container">
+        <!-- The image is still first in the HTML, but CSS will reverse the display order -->
+        <div class="intro-image">
+            <img src="images/profile-pic.png" alt="Portrait of Yonatan Berihun">
+        </div>
         
-        <div class="about-content">
-            <p>
-                Hello! I'm Yonatan Berihun, a passionate and resilient aspiring developer currently in my third year of Information Systems at Hawassa University. My journey into technology began with a challenging introduction to C++, but that initial struggle ignited a relentless drive in me.
-            </p>
+        <div class="intro-content">
+            <div class="intro-header">
+                <div class="intro-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <div class="intro-title">
+                    <h1>YONATAN BERIHUN</h1>
+                    <p>Aspiring Inspired Developer | Lifelong Learner</p>
+                </div>
+            </div>
             
-            <!-- This blockquote makes your key turning point stand out -->
-            <blockquote>
-                Instead of being discouraged, I dedicated myself to mastering the craft, quickly expanding my skills to include C, C#, Python, Dart, and Java.
-            </blockquote>
-            
-            <p>
-                This experience taught me to be a persistent, teachable, and lifelong learner who thrives on overcoming obstacles. I don't just write code; I embrace challenges and remain persistent until I achieve my goals.
-            </p>
+            <div class="intro-bio">
+                <p>
+                    Hello! I'm Yonatan Berihun, a passionate and resilient aspiring developer currently in my third year of Information Systems at Hawassa University. My journey into technology began with a challenging introduction to C++, but that initial struggle ignited a relentless drive in me.
+                </p>
+                <p>
+                    Instead of being discouraged, I dedicated myself to mastering the craft, quickly expanding my skills to include C, C#, Python, Dart, and Java. This experience taught me to be a persistent, teachable, and lifelong learner who thrives on overcoming obstacles. Today, I am a relentless problem-solver, driven to build innovative solutions and continuously learn. I don't just write code; I embrace challenges and remain persistent until I achieve my goals.
+                </p>
+            </div>
         </div>
     </div>
 </section>
