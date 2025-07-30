@@ -3,38 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me Section</title>
+    <title>Yonatan Berihun | Portfolio</title>
     
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     
-    <!-- Make sure you have a style.css file linked -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<section id="about" class="about-section">
-    <div class="container">
-        <h2 class="section-title">About Me</h2>
-        
-        <div class="about-content">
-            <p>
-                Hello! I'm Yonatan Berihun, a passionate and resilient aspiring developer currently in my third year of Information Systems at Hawassa University. My journey into technology began with a challenging introduction to C++, but that initial struggle ignited a relentless drive in me.
-            </p>
-            
-            <!-- This blockquote makes your key turning point stand out -->
-            <blockquote>
-                Instead of being discouraged, I dedicated myself to mastering the craft, quickly expanding my skills to include C, C#, Python, Dart, and Java.
-            </blockquote>
-            
-            <p>
-                This experience taught me to be a persistent, teachable, and lifelong learner who thrives on overcoming obstacles. I don't just write code; I embrace challenges and remain persistent until I achieve my goals.
-            </p>
+<!-- ======================= HERO SECTION ======================= -->
+<section class="hero-section">
+    <div class="hero-container">
+        <div class="hero-text">
+            <div class="hero-header">
+                <div class="hero-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <div class="hero-title">
+                    <h1>YONATAN BERIHUN</h1>
+                    <p>Aspiring Inspired Developer | Lifelong Learner</p>
+                </div>
+            </div>
+            <div class="hero-bio">
+                <p>Hello! I'm Yonatan Berihun, a passionate and resilient aspiring developer currently in my third year of Information Systems at Hawassa University. My journey into technology began with a challenging introduction to C++, but that initial struggle ignited a relentless drive in me.</p>
+                <p>Instead of being discouraged, I dedicated myself to mastering the craft, quickly expanding my skills to include C, C#, Python, Dart, and Java. This experience taught me to be a persistent, teachable, and lifelong learner who thrives on overcoming obstacles. Today, I am a relentless problem-solver, driven to build innovative solutions and continuously learn. I don't just write code; I embrace challenges and remain persistent until I achieve my goals.</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="#projects" class="cta-button primary">View My Work</a>
+                <a href="https://docs.google.com/uc?export=download&id=153Q42yrskPp4az6uF1gXapoVlv3d4gPd" class="cta-button secondary" download>Download CV</a>
+                <a href="#contact" class="cta-button secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile-pic.png" alt="Portrait of Yonatan Berihun">
         </div>
     </div>
 </section>
+
+<!-- ================== PROJECTS SECTION ================== -->
+<section id="projects" class="projects-section">
+    <div class="projects-container">
+        <h2 class="projects-section-title">
+            <span class="title-accent"></span> My Projects
+        </h2>
+        <div class="project-list">
+            <!-- ======================= PROJECT 1 ======================= -->
+            <article class="project-item">
+                <div class="project-image-wrapper">
+                    <a href="https://t.me/official_HUSC_bot" target="_blank" rel="noopener noreferrer">
+                        <img src="images/project-1.jpg" alt="Hawassa University Feedback Bot Screenshot">
+                    </a>
+                </div>
+                <div class="project-details">
+                    <p class="project-category">Telegram Bot</p>
+                    <h3 class="project-title-sub">Hawassa University Feedback Bot</h3>
+                    <p class="project-description">
+                        A dynamic Telegram bot built with Python and the python-telegram-bot library, designed to streamline student feedback and complaint reporting at Hawassa University. It supports multiple languages and intelligently routes reports to ensure seamless communication.
+                    </p>
+                    <div class="project-tech-list">
+                        <span>Python</span>
+                        <span>python-telegram-bot</span>
+                        <span>Regex</span>
+                        <span>Telegram API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://t.me/official_HUSC_bot" class="live-demo-link" target="_blank" rel="noopener noreferrer">Live Demo <span class="arrow">></span></a>
+                        <a href="https://github.com/Yoni-Berihun/hawassa-university-student-union-bot.git" class="github-link" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ======================= PROJECT 2 ======================= -->
+            <article class="project-item">
+                <div class="project-image-wrapper">
+                    <a href="https://github.com/Yoni-Berihun/hawassa-university-daycare-management-system.git" target="_blank" rel="noopener noreferrer">
+                        <img src="images/daycare_management_system.png" alt="Daycare Management System Screenshot">
+                    </a>
+                </div>
+                <div class="project-details">
+                    <p class="project-category">Console Application</p>
+                    <h3 class="project-title-sub">Daycare Management System</h3>
+                    <p class="project-description">
+                        Built a C++ console application to manage child records for a daycare, allowing administrators to add, view, search, update, and delete profiles. I designed a user-friendly menu and implemented persistent data storage using text files.
+                    </p>
+                    <div class="project-tech-list">
+                        <span>C++</span>
+                        <span>STL</span>
+                        <span>File I/O</span>
+                        <span>Windows API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="live-demo-link disabled-link">Live Demo <span class="arrow">></span></a>
+                        <a href="https://github.com/Yoni-Berihun/hawassa-university-daycare-management-system.git" class="github-link" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- ======================= PROJECT 3 ======================= -->
+            <article class="project-item">
+                <div class="project-image-wrapper">
+                    <a href="https://github.com/Yoni-Berihun/vehicle-rental-system.git" target="_blank" rel="noopener noreferrer">
+                        <img src="images/vehicle_rental_system.png" alt="YO Vehicle Rental System Screenshot">
+                    </a>
+                </div>
+                <div class="project-details">
+                    <p class="project-category">Console Application</p>
+                    <h3 class="project-title-sub">YO Vehicle Rental System</h3>
+                    <p class="project-description">
+                        Engineered a Java-based console application to streamline vehicle rental operations. I designed a robust system to manage locations, vehicles, customers, and rental contracts, incorporating features like cost breakdowns and insurance options.
+                    </p>
+                    <div class="project-tech-list">
+                        <span>Java</span>
+                        <span>Object-Oriented Programming (OOP)</span>
+                        <span>Java Enums</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="live-demo-link disabled-link">Live Demo <span class="arrow">></span></a>
+                        <a href="https://github.com/Yoni-Berihun/vehicle-rental-system.git" class="github-link" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ======================= PROJECT 4 ======================= -->
+            <article class="project-item">
+                <div class="project-image-wrapper">
+                    <a href="https://github.com/Yoni-Berihun/YO-Social-Media-Platform.git" target="_blank" rel="noopener noreferrer">
+                        <img src="images/yo_social.png" alt="YO-Social Screenshot">
+                    </a>
+                </div>
+                <div class="project-details">
+                    <p class="project-category">Console Application</p>
+                    <h3 class="project-title-sub">YO-Social</h3>
+                    <p class="project-description">
+                        Engineered a vibrant Java console-based social media platform to connect users through posts, likes, and comments. I implemented user registration, secure authentication, follow functionality, and customizable privacy settings.
+                    </p>
+                    <div class="project-tech-list">
+                        <span>Java</span>
+                        <span>Object-Oriented Programming (OOP)</span>
+                        <span>Console I/O</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="live-demo-link disabled-link">Live Demo <span class="arrow">></span></a>
+                        <a href="https://github.com/Yoni-Berihun/YO-Social-Media-Platform.git" class="github-link" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- ======================= PROJECT 5 ======================= -->
+            <article class="project-item">
+                <div class="project-image-wrapper">
+                    <a href="https://github.com/Yoni-Berihun/yo-dice-roller.git" target="_blank" rel="noopener noreferrer">
+                        <img src="images/yo_dice_roller.png" alt="YO Dice Roller Screenshot">
+                    </a>
+                </div>
+                <div class="project-details">
+                    <p class="project-category">Console Application</p>
+                    <h3 class="project-title-sub">YO Dice Roller</h3>
+                    <p class="project-description">
+                        Created a lively Python command-line app that brings the thrill of rolling a six-sided die to the terminal. Featuring stunning ASCII art for dice faces, dynamic roll animations, and session statistics, this project delivers a playful user experience.
+                    </p>
+                    <div class="project-tech-list">
+                        <span>Python</span>
+                        <span>Standard Libraries (random, time)</span>
+                        <span>Console I/O</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="live-demo-link disabled-link">Live Demo <span class="arrow">></span></a>
+                        <a href="https://github.com/Yoni-Berihun/yo-dice-roller.git" class="github-link" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+<!-- ========================================================== -->
+
+<div id="contact" style="height: 100vh;"></div>
 
 </body>
 </html>
